@@ -143,7 +143,6 @@ h1{
 
 .mais_infos2, h6{
     font-size: 40px;
-    margin-top: 60px;
     padding-bottom: 60px;
     text-align: center;
 }
@@ -189,7 +188,7 @@ html{
     scroll-behavior: smooth;
 }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 576px) {
     
     .introducao img{
         width: 0px;
@@ -236,7 +235,7 @@ html{
 
     .contato{
         margin-bottom: 0px;
-        margin-top: -20px;
+        margin-top: -60px;
         padding-top: 0px;
         display: block;
     }
@@ -251,4 +250,42 @@ html{
         padding-top: 10px;
     }
 
+}
+
+@media (min-width: 576px) and (max-width: 1159px) {
+
+    .introducao img{
+        width: 0px;
+    }
+
+    .sobre img{
+        width: 0px;
+    }
+
+    .contato{
+        margin-bottom: 60px;
+        margin-top: 30px;
+        padding-top: 0px;
+        display: block;
+    }
+    
+    .contato h2{
+        font-size: 25px;
+        padding-top: 80px;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 1159px) and (max-width: 1200px) {
+    .contato h2{
+        padding-top: 80px;
+        padding-left: 100px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .contato h2{
+        padding-top: 80px;
+        padding-left: 140px;
+    }
 }
