@@ -1,0 +1,254 @@
+.navbar{
+    background-color: #001F36;
+}
+
+body{
+    font-family: Arial;
+    background-color: #1C5560 !important;
+}
+
+.navbar a{
+    color: #FBFFCD;
+    font-size: 20px;
+}
+
+.navbar .navbar-brand{
+    color: #79AE92;
+}
+
+.navbar .btn{
+    background-color: #000;
+}
+
+h1{
+    color: #fff !important;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+
+.paragrafo1{
+    color:#FBFFCD;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.introducao img{
+    width: 692px;
+    float: right;
+}
+
+.consulta .btn{
+    background-color: #000;
+    color: #FBFFCD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre{
+    background-color: #001F36;
+}
+
+.sobre img{
+    float: right;
+    width: 600px;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+
+.sobre h2{
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.sobre p{
+    color:#FBFFCD;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.card .card-body{
+    background-color:#001F36;
+}
+
+.card .card-title, .card-text{
+    color: #FBFFCD;
+    padding-top: 10px;
+}
+
+.grid_style{
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.registro{
+    background-color: #001F36;
+}
+
+.registro h3{
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.registro img{
+    width: 200px;
+    border-radius:100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.registro .btn{
+    background-color: #000;
+    color: #FBFFCD;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+}
+
+.mais_infos1 h4{
+    color: #FBFFCD;
+    font-size: 40px;
+}
+
+.mais_infos1, h4{
+    font-size: 40px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.mais_infos2 h6{
+    color: #FBFFCD;
+    font-size: 40px;
+}
+
+.mais_infos2, h6{
+    font-size: 40px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.contato{
+    background-color: #000;
+    color: #FBFFCD;
+    display: flex;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+}
+
+.contato h2{
+    padding-top: 80px;
+    padding-left: 200px;
+}
+
+.final{
+    background-color: #001F36;
+}
+
+.final h5{
+    color: #79AE92;
+}
+
+.final p{
+    color: #FBFFCD;
+}
+
+.final li{
+    color: #FBFFCD;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.final a{
+    text-decoration: none;
+    color: #FBFFCD !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+    
+    .introducao img{
+        width: 0px;
+    }
+
+    h1{
+        font-size: 20px !important;
+        padding-left: 15px;
+
+    }
+
+    .paragrafo1{
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .consulta .btn{
+        margin-left: 15px;
+    }
+
+    .sobre img{
+        width: 0px;
+    }
+
+    .sobre h2{
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+    
+    .sobre p{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+
+    .mais_infos1 h4{
+        font-size: 20px;
+    }
+
+    .mais_infos2 h6{
+        font-size: 20px;
+    }
+
+    .contato{
+        margin-bottom: 0px;
+        margin-top: -20px;
+        padding-top: 0px;
+        display: block;
+    }
+    
+    .contato h2{
+        font-size: 25px;
+        padding-top: 80px;
+        padding-left: 20px;
+    }
+    
+    .final li{
+        padding-top: 10px;
+    }
+
+}
